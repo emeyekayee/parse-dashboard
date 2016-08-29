@@ -70,7 +70,7 @@ module.exports = function(config, allowInsecureHTTP) {
 
     //Based on advice from Doug Wilson here:
     //https://github.com/expressjs/express/issues/2518
-    const requestIsLocal =
+    const requestIsLocal = true ||
       req.connection.remoteAddress === '127.0.0.1' ||
       req.connection.remoteAddress === '::ffff:127.0.0.1' ||
       req.connection.remoteAddress === '::1';

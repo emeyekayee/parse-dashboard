@@ -1,9 +1,9 @@
 {
   "apps": [{
-    "serverURL": "",
-    "appId": "",
-    "masterKey": "",
-    "appName": "",
+    "serverURL": "https://dev-parse.streetline.com/parse",
+    "appId": "96sQYRILhEg5ppgXEKR5uSYVEIbnJcTESelZK5HH",
+    "masterKey": "VlwuBzdjHe3czKrGVIfs8YFbiGr47xgDgQ6zx9on",
+    "appName": "parse",
     "iconName": ""
   }],
   "iconsFolder": "icons"
